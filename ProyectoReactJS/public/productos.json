@@ -1,15 +1,15 @@
 [
     {
-        "id_producto": 1,
+        "id": 1,
         "nombre": "Scon relleno",
         "descripcion": "Scon capresse relleno de queso, crudo y rúcula",
         "precio": 4200,
         "imagen": "../src/assets/img/scon.jpg",
         "stock": 50,
-        "categoria": "Salados para acompañar"
+        "categoria": "Salados"
     },
     {
-        "id_producto": 2,
+        "id": 2,
         "nombre": "Focaccia",
         "descripcion": "Sandwich de focaccia relleno de jamon crudo, rúcula y burrata",
         "precio": 5500,
@@ -18,7 +18,7 @@
         "categoria": "Salados"
     },
     {
-        "id_producto": 3,
+        "id": 3,
         "nombre": "Tostado",
         "descripcion": "Tostado prensado de jamón y queso",
         "precio": 3800,
@@ -27,7 +27,7 @@
         "categoria": "Salados"
     },
     {
-        "id_producto": 4,
+        "id": 4,
         "nombre": "Chipa XL",
         "descripcion": "Pan de queso tamaño XL",
         "precio": 4500,
@@ -36,39 +36,39 @@
         "categoria": "Salados"
     },
     {
-        "id_producto": 5,
+        "id": 5,
         "nombre": "Porción de torta ",
         "descripcion": "Porción de cheesecake de frutos rojos",
         "precio": 5300,
         "imagen": "../src/assets/img/torta.jpg",
         "stock": 16,
-        "categoria": "Dulces para acompañar"
+        "categoria": "Dulces"
     },
     {
-        "id_producto": 6,
+        "id": 6,
         "nombre": "Cookie",
         "descripcion": "Cookie de vainilla con chips de chocolate",
         "precio": 2700,
         "imagen": "../src/assets/img/cookie.jpg",
         "stock": 50,
-        "categoria": "Dulces para acompañar"
+        "categoria": "Dulces"
     },
     {
-        "id_producto": 7,
+        "id": 7,
         "nombre": "Alfajor",
         "descripcion": "Alfajor de chocolate blanco relleno de dulce de leche",
         "precio": 3100,
         "imagen": "../src/assets/img/alfajor.jpg",
         "stock": 90,
-        "categoria": "Dulces para acompañar"
+        "categoria": "Dulces"
     },
     {
-        "id_producto": 8,
+        "id": 8,
         "nombre": "Budin",
         "descripcion": "Porción de budin de limón y amapolas",
         "precio": 3200,
         "imagen": "../src/assets/img/budin.jpg",
         "stock": 12,
-        "categoria": "Dulces para acompañar"
+        "categoria": "Dulces"
     }
 ]

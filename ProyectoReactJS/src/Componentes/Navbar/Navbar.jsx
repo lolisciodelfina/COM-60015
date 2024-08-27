@@ -2,18 +2,18 @@ import React from 'react'
 import "./Navbar.css"
 import logo from '../../assets/img/logo.jpg';
 import CartWidget from '../CartWidget/CartWidget';
+import {Link, NavLink} from "react-router-dom"
 
 const Navbar = () => {
     return (
-        <div>
+        <div className='Encabezado'>
             <img src={logo} alt="" />
             <nav className='Navbar'>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Menú</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Reserva</a></li>
-                    <li><a href="#">Take Away</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/categoria/Coffee">Coffee</Link></li>
+                    <li><Link to="/categoria/Dulces">Dulces</Link></li>
+                    <li><Link to="/categoria/Salados">Salados</Link></li>
                 </ul>
             </nav>
             <CartWidget/>

@@ -15,7 +15,10 @@ div{
 div img{
     padding-top: .5625rem;
     width: 20%;
-    height: 10%;
+    height: 80%;
+}
+.Encabezado{
+    background-color: white;
 }
 .Navbar ul{
     padding-left: 0rem;

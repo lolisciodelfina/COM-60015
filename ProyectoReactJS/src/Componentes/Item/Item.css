@@ -1,7 +1,7 @@
 .card{
     display: flex;
     flex-direction: column;
-    font-size: .9375rem;
+    font-size: 1.875rem;
 
     border: 3px solid #fab6ca;
     border-radius: 8px;
@@ -18,6 +18,13 @@
 }
 .card img{
     width: 100%;
-    height: 40%;
+    height: 70%;
     border-radius: 55px;
+    margin: 0rem;
+    padding: 0rem;
+}
+.card h2{
+    margin-bottom: 0rem;
+    padding: 0rem;
+    text-align: center;
 }

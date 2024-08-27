@@ -5,8 +5,6 @@
 .todo{
   display: flex;
   flex-direction: column;
-}
-main{
   background-color: rgb(255, 204, 204);
 }
 h1{
