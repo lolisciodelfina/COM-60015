@@ -28,11 +28,14 @@ div img{
     display: inline-block;
     margin: .625rem .625rem .625rem .625rem;
 }
-.Navbar ul li a{
+.link{
     text-decoration: none;
     color: rgb(233, 102, 102);
 }
 .cart{
     padding-top: .625rem;
     padding-right: 10px;
+}
+.active{
+    color: rgb(165, 39, 60);
 }
