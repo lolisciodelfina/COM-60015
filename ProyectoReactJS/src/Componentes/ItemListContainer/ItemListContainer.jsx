@@ -13,15 +13,14 @@ const ItemListContainer = () => {
         setLoading(true);
         const db = getFirestore();
         const myProducts = categoryId ? query(collection(db, "item"), where("categoría","==", categoryId)): collection(db, "item");
-        getDocs(myProducts)
-            .then((res)=> {
+        getDocs(myProducts).then((res)=> {
                 const newProducts =res.docs.map((doc)=> {
                     const data = doc.data();
                     return { id: doc.id, ...data};
                 });
                 setProducts(newProducts);
             })
-            .catch((error)=> console.log("Error searching items", error))
+            .catch((error)=> console.log("Error searching items", error))      
             .finally(()=> setLoading(false));
     },[categoryId])
 
