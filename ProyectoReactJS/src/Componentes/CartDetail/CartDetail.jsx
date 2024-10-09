@@ -1,6 +1,7 @@
 import React from 'react'
 import { useContext } from 'react';
 import { cartContext } from '../../context/CartContext/CartProvider';
+import { Link } from 'react-router-dom';
 
 const CartDetail = ({cart} ) => {
     const { getTotal, getTotalProducts, removeToCart, clearCart, buy} = useContext(cartContext);
@@ -19,10 +20,12 @@ const CartDetail = ({cart} ) => {
             ))}
             {cart.length > 0 && (
                 <>
-                    <h3>Total prodctos: {getTotalProducts()}</h3>
+                    <h3>Total productos: {getTotalProducts()}</h3>
                     <h3>Total a pagar: ${getTotal()}</h3>
                     <button onClick={clearCart}>Vaciar el carrito</button>
-                    <button onClick={buy}>Comprar</button>
+                    <Link to="/checkout">
+                        <button onClick={buy}>Comprar</button>
+                    </Link>
                 </>
             )}
         </div>
